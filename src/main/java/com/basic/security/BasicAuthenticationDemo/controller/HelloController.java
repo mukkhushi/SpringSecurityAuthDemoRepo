@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping("/hi")
     String hello(){
-        return "welcome";
+        return "welcome to spring security";
     }
 }
