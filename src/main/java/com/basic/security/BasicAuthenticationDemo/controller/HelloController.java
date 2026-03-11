@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping("/hi")
     String hello(){
-        return "welcome to java";
+        return "welcome to JWT";
     }
 }
